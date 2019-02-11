@@ -8,6 +8,6 @@ php yii migrate/create create_shop_table --fields=shop_id:primaryKey,name:string
 <br>
 iPhone:<br>
 php yii migrate/create create_iphone_table 
---fields=iphone_id:primaryKey,model:string,description:text,rating:integer,shop_id:foreignKey<br>
+--fields=iphone_id:primaryKey,model:string,description:text,rating:integer,shop_id:integer:foreignKey<br>
 
 ![Image alt](https://github.com/HevillDS/Practos4/raw/master/working.png)
